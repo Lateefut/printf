@@ -1,5 +1,5 @@
-#ifndef _BOOTCAMP_H_
-#define _BOOTCAMP_H_
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 /* begin standard C header files */
 #include <stdlib.h>
