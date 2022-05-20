@@ -1,5 +1,5 @@
-#ifndef MAIN.H
-#define MAIN.H
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <stdarg.h> /* va_list, va_start, va_end */
 #include <stdlib> /* malloc, free */
