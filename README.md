@@ -1,6 +1,6 @@
 This is the Repository descriptive of the Project contains incrementation of our printf function.
 
-For this project we wrote own `printf` function. It is the first group project for ALX Software Engineering program @Holberton School. Our version of `printf` currently handles the following conversion specifiers:
+For this project we wrote own `printf` function. It is the first group project for ALX Software Engineering program . Our version of `printf` currently handles the following conversion specifiers:
 
 | Symbol | Operation |
 |--|--|
