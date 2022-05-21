@@ -1,5 +1,33 @@
 This is the Repository descriptive of the Project contains incrementation of our printf function.
 
+For this project we wrote own `printf` function. It is the first group project for ALX Software Engineering program @Holberton School. Our version of `printf` currently handles the following conversion specifiers:
+
+| Symbol | Operation |
+|--|--|
+| `c` | Prints character |
+| `s` | Prints string |
+| `%` | Prints modulus operator |
+| `d` | Prints integer |
+| `i` | Also prints integer |
+| `h` | Converts from decimal and prints lowercase hexadecimal |
+| `H` | Converts from decimal and prints lowercase hexadecimal |
+| `r` | Reverses and prints string |
+| `R` | Encodes and prints string using `rot13` |
+
+ 
+*Bring your own main file.* To use our `printf` you will need a `main.c` file to compile it with. Go ahead and try the following:
+```
+int main(void)
+{
+	_printf("%c\n", 'H');
+	_printf("%s\n", "Hello");
+	_printf("%d\n", 42);
+	_printf("%i\n", -42);
+	_printf("%r\n", "Hello");
+	_printf("%R\n", "Hello");
+	return (0);
+}
+
 
 # Tasks
 
