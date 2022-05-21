@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _printf - prints and input into the standard output 
+ * _printf - prints and input into the standard output
  * @format: the format string
  *
  * Return: number of bytes printed
@@ -15,7 +15,7 @@ int _printf(const char *format, ...)
 
 	va_start(ap, format);
 
-	if (!format || (format[0] == '%' && !format[1]))/* checking for NULL character*/
+	if (!format || (format[0] == '%' && !format[1]))/*checking for NULLcharacter*/
 		return (-1);
 	if (format[0] == '%' && format[1] == ' ' && !format[2])
 		return (-1);
