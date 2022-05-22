@@ -13,20 +13,6 @@ For this project we wrote own `printf` function. It is the first group project f
 | `R` | Encodes and prints string using `rot13` |
 
 
-*Bring your own main file.* To use our `printf` you will need a `main.c` file to compile it with. Go ahead and try the following:
-```
-int main(void)
-{
-	_printf("%c\n", 'H');
-	_printf("%s\n", "Hello");
-	_printf("%d\n", 42);
-	_printf("%i\n", -42);
-	_printf("%r\n", "Hello");
-	_printf("%R\n", "Hello");
-	return (0);
-}
-```
-
 
 ## Project Tasks
 #### 0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life
