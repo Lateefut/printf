@@ -4,7 +4,7 @@
 /**
  * _putchar - writes the chracter c to stdout
  * @c: the chracater to print
- * Return On success 1.
+ * Return: On success 1.
  * on error, -1 is returned, and errno is set appropriately.
  * Description: _putchar uses a local buffer of 1024 to call write
  * as little as possible
