@@ -32,7 +32,7 @@ int _putchar(char c)
  * @str: pointer to the string to print
  * Return: number of chars written
  */
-int _puts(chr *str)
+int _puts(char *str)
 {
 	register int i;
 
